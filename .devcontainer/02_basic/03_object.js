@@ -13,19 +13,32 @@ const jsUser = {
     isLoggedIn : false,
     lastLoginDays : ["Monday","Saturday"]
 }
-console.log(jsUser.email);
-console.log(jsUser['email']);
-console.log(jsUser['name']);
-console.log(jsUser.fullName);
-console.log(jsUser['fullName']);
-console.log(jsUser[mySym]);
-console.log(typeof jsUser[mySym]);
+// console.log(jsUser.email);
+// console.log(jsUser['email']);
+// console.log(jsUser['name']);
+// console.log(jsUser.fullName);
+// console.log(jsUser['fullName']);
+// console.log(jsUser[mySym]);
+// console.log(typeof jsUser[mySym]);
 
-jsUser.email = "nayakbiranchi@gail.com"
-console.log(jsUser);
-Object.freeze(jsUser);//after freeze object any value cannot be change
-jsUser.email = "nayak123@gmail.com"
-console.log(jsUser);
+// jsUser.email = "nayakbiranchi@gail.com"
+// console.log(jsUser);
+// Object.freeze(jsUser);//after freeze object any value cannot be change
+// jsUser.email = "nayak123@gmail.com"
+// console.log(jsUser);
+
+jsUser.greeting = function(){
+    console.log("Hello jsUser");
+    
+}
+console.log(jsUser.greeting());
+
+jsUser.greetingTwo = function(){
+    console.log(`Hello jsUser,${this.name}`);
+}
+console.log(jsUser.greetingTwo());
+
+
 
 
 
