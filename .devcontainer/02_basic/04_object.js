@@ -87,7 +87,7 @@ console.log(cIntructor);
     {},
     {}
 ]
-// Basic introduction o API with randomuser me api example
+// Basic introduction of API with randomuser me api example
 
 {
   "results": [
