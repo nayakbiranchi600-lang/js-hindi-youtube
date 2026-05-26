@@ -43,3 +43,20 @@ const addtwo3 = (num5,num6) => ({username:"Nayak"})
 console.log(addtwo3(30,40));
 
 
+//-----------------Immediately Involked Function Expressions (IIFE)---------------------
+
+(function chai2(){  // Named IIFE
+    console.log("DB is Connected");
+})(); // iits a new style of  function calling
+
+(()=>{ //Simple IIFE
+    console.log("DB2 is connected"); 
+})(); //without semicolon it give output error because this function cannot understand where function execution will stop
+
+((name)=>{ // simple IIFE
+    console.log(`The username is ${name}`);  
+})("Biranchi Narayan Nayak");
+
+// interview Questions
+// 1 write twom IIFE in one page//(trick is ';' required) 
+//what is named IIFE and what is simple IIFE // simple the function with name is named IIFE and the function without name is simple IIFE
