@@ -41,20 +41,68 @@
 //     console.log("less then 1200");
 // }
 
-const userLoggedIn = true
-const debitCard = true
+// const userLoggedIn = true
+// const debitCard = true
 
-if(userLoggedIn && debitCard){
-    console.log("Allow buy course");
-}
-if(userLoggedIn && debitCard && 2==3){
-    console.log("Allow buy 2course");
-}
+// if(userLoggedIn && debitCard){
+//     console.log("Allow buy course");
+// }
+// if(userLoggedIn && debitCard && 2==3){
+//     console.log("Allow buy 2course");
+// }
 
-const loggedInFromGoggle = true
-const loggedInFromEmail = true
-const guastLoggedIn = true
+// const loggedInFromGoggle = true
+// const loggedInFromEmail = true
+// const guastLoggedIn = true
 
-if(loggedInFromGoggle && loggedInFromEmail && guastLoggedIn){
-    console.log("User Logged in");   
-}
+// if(loggedInFromGoggle && loggedInFromEmail && guastLoggedIn){
+//     console.log("User Logged in");   
+// }
+
+// Switch Case
+//syntax of switc case in javaScript
+// switch (key) {
+//     case value:
+        
+//         break;
+
+//     default:
+//         break;
+// }
+//
+// let month = 5
+// switch(month){
+//     case 1 : 
+//         console.log("January");
+//         break;
+//     case 2 : 
+//         console.log("February");
+//         break;
+//     case 3 :
+//         console.log("March");
+//         break;
+//     case 4 :
+//         console.log("April");
+//         break;
+//     default:
+//         console.log("default case match");
+//         break;
+// }   
+let month = "march"
+switch(month){
+    case "january" : 
+        console.log("January");
+        break;
+    case "february" : 
+        console.log("February");
+        break;
+    case "march" :
+        console.log("March");
+        break;
+    case "april" :
+        console.log("April");
+        break;
+    default:
+        console.log("default case match");
+        break;
+}   
