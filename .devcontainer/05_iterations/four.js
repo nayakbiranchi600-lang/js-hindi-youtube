@@ -5,6 +5,12 @@ const  myObject = {
     njs:"NodeJS",
     swift:"Swift by Apple"
 }
-for (const key in myObject) {
-    console.log(`${key} is shortcut for ${myObject}`);
+// for (const key in myObject) {
+//     console.log(`${key} is shortcut for ${myObject}`);
+// }
+
+const prgmLanguage = ["Java","PHP","JavaScript","NodeJS","Python"]
+for(const key in prgmLanguage){
+    // console.log(prgmLanguage[key]);    
 }
+
